@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>94693E16-DE31-4A63-8B34-15359BF3355D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyFirstApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D22E890BE507679F438ADC1470DDF134EFEC807</key>
+		<string>https://github.com/jollyjoester/SwiftTrial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyFirstApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D22E890BE507679F438ADC1470DDF134EFEC807</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jollyjoester/SwiftTrial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D22E890BE507679F438ADC1470DDF134EFEC807</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D22E890BE507679F438ADC1470DDF134EFEC807</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftTrial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
