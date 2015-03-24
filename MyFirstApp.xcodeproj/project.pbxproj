@@ -13,6 +13,10 @@
 		6242D0C219B7E14200317718 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6242D0C119B7E14200317718 /* Images.xcassets */; };
 		6242D0CE19B7E14200317718 /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6242D0CD19B7E14200317718 /* MyFirstAppTests.swift */; };
 		6242D0D819B7E25300317718 /* shibao.png in Resources */ = {isa = PBXBuildFile; fileRef = 6242D0D719B7E25300317718 /* shibao.png */; };
+		628FFCA51ABF1F0D002395D0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628FFCA41ABF1F0D002395D0 /* TableViewController.swift */; };
+		628FFCA71ABF2C56002395D0 /* shibao_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 628FFCA61ABF2C56002395D0 /* shibao_icon.png */; };
+		628FFCBD1AC144BD002395D0 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628FFCBA1AC144BD002395D0 /* Repro.framework */; };
+		628FFCBE1AC144BD002395D0 /* ReproSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 628FFCBC1AC144BD002395D0 /* ReproSDKResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		6242D0CC19B7E14200317718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6242D0CD19B7E14200317718 /* MyFirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppTests.swift; sourceTree = "<group>"; };
 		6242D0D719B7E25300317718 /* shibao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shibao.png; sourceTree = "<group>"; };
+		628FFCA41ABF1F0D002395D0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		628FFCA61ABF2C56002395D0 /* shibao_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shibao_icon.png; sourceTree = "<group>"; };
+		628FFCBA1AC144BD002395D0 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Repro.framework; sourceTree = "<group>"; };
+		628FFCBC1AC144BD002395D0 /* ReproSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ReproSDKResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628FFCBD1AC144BD002395D0 /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +68,8 @@
 		6242D0AC19B7E14200317718 = {
 			isa = PBXGroup;
 			children = (
+				628FFCB91AC144BD002395D0 /* Repro.embeddedframework */,
+				628FFCA61ABF2C56002395D0 /* shibao_icon.png */,
 				6242D0D719B7E25300317718 /* shibao.png */,
 				6242D0B719B7E14200317718 /* MyFirstApp */,
 				6242D0CA19B7E14200317718 /* MyFirstAppTests */,
@@ -80,6 +91,7 @@
 			children = (
 				6242D0BA19B7E14200317718 /* AppDelegate.swift */,
 				6242D0BC19B7E14200317718 /* ViewController.swift */,
+				628FFCA41ABF1F0D002395D0 /* TableViewController.swift */,
 				6242D0BE19B7E14200317718 /* Main.storyboard */,
 				6242D0C119B7E14200317718 /* Images.xcassets */,
 				6242D0B819B7E14200317718 /* Supporting Files */,
@@ -110,6 +122,23 @@
 				6242D0CC19B7E14200317718 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		628FFCB91AC144BD002395D0 /* Repro.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				628FFCBA1AC144BD002395D0 /* Repro.framework */,
+				628FFCBB1AC144BD002395D0 /* Resources */,
+			);
+			path = Repro.embeddedframework;
+			sourceTree = "<group>";
+		};
+		628FFCBB1AC144BD002395D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				628FFCBC1AC144BD002395D0 /* ReproSDKResources.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +221,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628FFCA71ABF2C56002395D0 /* shibao_icon.png in Resources */,
 				6242D0C019B7E14200317718 /* Main.storyboard in Resources */,
+				628FFCBE1AC144BD002395D0 /* ReproSDKResources.bundle in Resources */,
 				6242D0C219B7E14200317718 /* Images.xcassets in Resources */,
 				6242D0D819B7E25300317718 /* shibao.png in Resources */,
 			);
@@ -213,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6242D0BD19B7E14200317718 /* ViewController.swift in Sources */,
+				628FFCA51ABF1F0D002395D0 /* TableViewController.swift in Sources */,
 				6242D0BB19B7E14200317718 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,9 +361,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repro.embeddedframework",
+				);
 				INFOPLIST_FILE = MyFirstApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -340,9 +379,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repro.embeddedframework",
+				);
 				INFOPLIST_FILE = MyFirstApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -399,6 +444,7 @@
 				6242D0D319B7E14200317718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6242D0D419B7E14200317718 /* Build configuration list for PBXNativeTarget "MyFirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +453,7 @@
 				6242D0D619B7E14200317718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Repro
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+        
+    Repro.setup("YOUR-API-TOKEN")
+    Repro.startRecording()
+        
+        
         return true
     }
 
